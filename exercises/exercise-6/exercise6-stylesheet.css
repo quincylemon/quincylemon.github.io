@@ -1,0 +1,30 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: auto;
+    font-size: 75px;
+}
+header{
+    background-color: rgb(113, 87, 44);
+    color: rgb(237, 245, 170);
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0px;
+    justify-content: center;
+}
+
+nav a{
+    color: rgb(164, 155, 187);
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
