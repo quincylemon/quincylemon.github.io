@@ -6,15 +6,35 @@
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
     <style>
+        body{
+            background-image:url(photos/cloth.jpg);
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: scroll;
+            display: block;
+        }
+        .square{
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-attachment: scroll;
+            background-color: #6d1d1d;
+            display: block;
+            justify-content: center;
+            align-items: center;
+
+        }
+
         #bgcolor{
             width: auto;
-            height: 2000px;
+            height: auto;
             background-color: blueviolet;
         }
     </style>
 </head>
 <body>
-   <header>
+   <div class="square"></div>
+   
+    <header>
     
 
    </header>
@@ -23,15 +43,34 @@
     <div id="container">
         <div id="nav">
             <a href="project3.html"> Home</a> | 
-            <a href="kids.html"> Step 1</a> | 
-            <a href="locations.html"> Step 2</a> 
+            <a href="kids.html"> Kids</a> | 
+            <a href="locations.html"> Projects
+            </a> 
     </div>
     <div id="image1">
-
+        <img src="photos/lady.jpg"alt="Avatar" class="image" style="width:100%">
+        <div class="middle">
+        <div class="bottom-left"> Home-Made Goods</div>
     </div>
     <div id="image2">
+        <img src="photos/cars.jpg"
+        width="1000px"
+        height="auto"
+        object-fit="cover">
+        <div class="bottom-left"> Name Brand Faves</div>
 
     </div>
+    
+    <div id="image3">
+        <img src="photos/balls.jpg"
+        width="1000px"
+        height="auto"
+        object-fit="cover">
+        <div class="bottom-left"> Sports Lovers</div>
+
+    </div>
+
+    
     <div id="bgcolor">
         
     </div>  

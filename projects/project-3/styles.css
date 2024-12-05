@@ -3,6 +3,17 @@ html{
     height: auto;
 }
 
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    width: 535px;
+    height: 37px;
+    border-radius: 1000px;
+    margin-top: -200px;
+}
+
 #container{
     display: block;
     justify-content: center;
@@ -57,3 +68,41 @@ a:active {
     font-weight: bold;
     background-color: rgb(243, 240, 89);
 }
+
+#image1{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 95px;
+  }
+  #image2{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 95px;
+  }
+
+  #image3{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 95px;
+  }
