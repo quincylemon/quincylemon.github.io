@@ -1,24 +1,21 @@
 
-html{
-    height: auto;
-}
 
-#container{
+/*#container{
     display: block;
     justify-content: center;
     align-items: center;
     margin: auto;
     width: 1020px;
-}
+}*/
 
-#nav{
-    padding-left: auto;
+#nav2{
+    background-color: rgb(99, 110, 188);
+    width: 1261px;
+    height: 95px;
+    display: inline;
     font-size: 40px;
     text-align: center; 
-    list-style: center;
-    background-color: rgb(99, 110, 188);
-    justify-content: center;
-    align-items: center;
+    list-style: none;
 }
 body{
     background-image: url(images/sillybg.jpeg)
