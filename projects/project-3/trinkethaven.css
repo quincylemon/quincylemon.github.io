@@ -77,3 +77,18 @@ h1{
     width: 775px ;
     margin: 0px auto;
 }
+
+#loc-heading{
+    color: rgb(124, 171, 104);
+    font-size: 90px
+}
+#image{
+    justify-content: center;
+    border: solid gold 5px;
+   
+    
+}
+
+#loc-text{
+    font-size: 50px
+}
