@@ -1,16 +1,17 @@
 #container1{
-    width: 1440x;
+    width: 1440px;
     margin: 0px auto;
     background-image: url(photos/home-bg.png);
     background-repeat: no-repeat;
 }
 
 #container2{
-    background-color: rgb(217, 217, 217);
+    background-color: white;
     width: 1075px;
     height: 1905px;
     margin-left: 182.5px;
     margin-right: 182.5px;
+    padding-top: 70px;
 }
 
 #nav1{
@@ -51,9 +52,14 @@
     color: white;
 }
 
+#nav2 li a:hover{
+    color: yellow;
+
+}
+
 .middle{
-    background-color: chartreuse;
-    width: 1075px;
+    background-color: white;
+    width: 775px;
     margin: 0px auto;
 }
 
